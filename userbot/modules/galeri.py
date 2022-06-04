@@ -1,10 +1,10 @@
-# Copyright (C) 2020 Yusuf Usta.
+# Copyright (C) 2022 Bloodper.
 #
 # Licensed under the GPL-3.0 License;
 # you may not use this file except in compliance with the License.
 #
 
-# Asena UserBot - Yusuf Usta
+# Lexa UserBot - Bloodper
 
 import re
 import asyncio
@@ -98,7 +98,7 @@ async def galeri(event):
         await event.edit(LANG['INVALID'])
 
 CmdHelp('galeri').add_command(
-    'galeri ekle', '<url>', 'Galeri sırasına fotoğraf ekler', 'galeri ekle https://i.hizliresim.com/wFSVKd.jpg'
+    'galeri ekle', '<url>', 'Galeri sırasına fotoğraf ekler', 'galeri ekle <url>'
 ).add_command(
     'galeri liste', None, 'Galeri sırasını gösterir.'
 ).add_command(

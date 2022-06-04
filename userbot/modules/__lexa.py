@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# Asena UserBot - Yusuf Usta
+# Lexa Userbot - Bloodper
 #
 
 """ UserBot yardım komutu """
@@ -17,13 +17,13 @@ from userbot.events import register
 # ██████ LANGUAGE CONSTANTS ██████ #
 
 from userbot.language import get_value
-LANG = get_value("__asena")
+LANG = get_value("__lexa")
 
 # ████████████████████████████████ #
 
-@register(outgoing=True, pattern="^.asena(?: |$)(.*)")
-async def asena(event):
-    """ .asena komutu için """
+@register(outgoing=True, pattern="^.lexa(?: |$)(.*)")
+async def lexa(event):
+    """ .lexa komutu için """
     args = event.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:

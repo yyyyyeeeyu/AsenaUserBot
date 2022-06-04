@@ -1,13 +1,12 @@
-# Copyright (C) 2020 Yusuf Usta.
+# Copyright (C) 2022 Lexa Userbot
 #
 # Licensed under the GPL-3.0 License;
 # you may not use this file except in compliance with the License.
 #
 
-# Asena UserBot - Yusuf Usta
+# Lexa Userbot - Bloodper
 
-# @Qulec tarafından yazılmıştır.
-# Thanks @Spechide.
+# @Bloodpers
 
 from userbot import BOT_USERNAME
 from userbot.events import register
@@ -25,7 +24,7 @@ async def yardim(event):
     if tgbotusername is not None:
         results = await event.client.inline_query(
             tgbotusername,
-            "@AsenaUserBot"
+            "@LexaUserbot"
         )
         await results[0].click(
             event.chat_id,

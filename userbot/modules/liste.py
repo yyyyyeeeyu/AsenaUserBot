@@ -1,10 +1,10 @@
-# Copyright (C) 2020 Yusuf Usta.
+# Copyright (C) 2022 Bloodper
 #
 # Licensed under the GPL-3.0 License;
 # you may not use this file except in compliance with the License.
 #
 
-# Asena UserBot - Yusuf Usta
+# Lexa UserBot - Bloodper
 
 from userbot import CMD_HELP
 from userbot.events import register

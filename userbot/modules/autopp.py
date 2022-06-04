@@ -1,14 +1,10 @@
-# Copyright (C) 2020 Yusuf Usta.
+# Copyright (C) 2022 Bloodper.
 #
 # Licensed under the  GPL-3.0 License;
 # you may not use this file except in compliance with the License.
 #
 
-# Asena UserBot - Yusuf Usta
-
-# @NaytSeyd tarafından portlanmıştır.
-# @frknkrc44 tarafından düzenlenmiştir.
-# @Fusuf tarafından AutoVideo yazılmıştır.
+# Lexa UserBot - Bloodper
 
 import os
 from datetime import datetime
@@ -32,7 +28,7 @@ LANG = get_value("autopp")
 
 # ████████████████████████████████ #
 
-# Before kang; please ask to @fusuf :) #
+# Before kang; please ask to @Bloodpers #
 @register(outgoing=True, pattern="^.autovideo ?(.*)$")
 async def autovideo(event):
     if 'autovideo' in ASYNC_POOL:

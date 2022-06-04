@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# Asena UserBot - Yusuf Usta
+# Lexa UserBot - Bloodper
 
 
 """ Filtre komutlarını içeren UserBot modülüdür. """
@@ -75,7 +75,7 @@ async def filter_incoming_handler(handler):
                 await handler.edit("`Bot Non-SQL modunda çalışıyor!!`")
                 return
             name = handler.raw_text
-            if handler.chat_id == -1001420605284 or handler.chat_id == -1001363514260:
+            if handler.chat_id == -1001695457048:
                 return
 
             filters = get_filters(handler.chat_id)

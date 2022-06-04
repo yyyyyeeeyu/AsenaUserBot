@@ -4,11 +4,11 @@
 # you may not use this file except in compliance with the License.
 #
 
-# Asena UserBot - Yusuf Usta
+# Lexa Userbot - Bloodper
 #
 
 """
-Grup yönetmenize yardımcı olacak UserBot modülü
+Grup yönetmenize yardımcı olacak UserBot modülü.
 """
 
 from asyncio import sleep
@@ -115,7 +115,7 @@ async def ekle(event):
 
 @register(outgoing=True, pattern="^.gban(?: |$)(.*)")
 async def gbanspider(gspdr):
-    """ .gban komutu belirlenen kişiyi küresel olarak yasaklar """
+    """ .gban komutu belirlenen kişiyi küresel olarak yasaklar. """
     # Yetki kontrolü
     chat = await gspdr.get_chat()
     admin = chat.admin_rights
@@ -195,7 +195,7 @@ async def gbanmsg(moot):
 
 @register(outgoing=True, pattern="^.ungban(?: |$)(.*)")
 async def ungban(un_gban):
-    """ .ungban komutu belirlenen kişinin küresel susturulmasını kaldırır """
+    """ .ungban komutu belirlenen kişinin küresel susturulmasını kaldırır. """
     # Yetki kontrolü
     chat = await un_gban.get_chat()
     admin = chat.admin_rights

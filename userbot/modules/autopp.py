@@ -28,7 +28,7 @@ LANG = get_value("autopp")
 
 # ████████████████████████████████ #
 
-# Before kang; please ask to @Bloodpers #
+# Before kang; please ask to @fusuf #
 @register(outgoing=True, pattern="^.autovideo ?(.*)$")
 async def autovideo(event):
     if 'autovideo' in ASYNC_POOL:

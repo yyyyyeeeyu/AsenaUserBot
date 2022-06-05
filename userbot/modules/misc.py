@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# Asena UserBot - Yusuf Usta
+# Lexa UserBot - Bloodper
 
 
 """ Birkaç küçük komutu içeren UserBot modülü. """
@@ -51,7 +51,7 @@ async def randomise(items):
 
 @register(outgoing=True, pattern="^.sleep( [0-9]+)?$")
 async def sleepybot(time):
-    """ .sleep komutu Asena'nın birkaç saniye uyumasına olanak sağlar. """
+    """ .sleep komutu Lexa'nın birkaç saniye uyumasına olanak sağlar. """
     if " " not in time.pattern_match.group(1):
         await time.reply(LANG['SLEEP_DESC'])
     else:
@@ -157,15 +157,15 @@ async def raw(event):
             caption="`Çözülen mesaj`")
 
 CmdHelp('misc').add_command(
-    'random', '<eşya1> <eşya2> ... <eşyaN>', 'Eşya listesinden rastgele bir eşya seçer', 'random asena uniborg userge'
+    'random', '<eşya1> <eşya2> ... <eşyaN>', 'Eşya listesinden rastgele bir eşya seçer', 'random lexa uniborg userge'
 ).add_command(
-    'sleep', '<süre>', 'Asena de bir insan, o da yoruluyor. Ara sıra biraz uyumasına izin ver.', 'sleep 30'
+    'sleep', '<süre>', 'Lexa de bir insan, o da yoruluyor. Ara sıra biraz uyumasına izin ver.', 'sleep 30'
 ).add_command(
     'shutdown', None, 'Nostaljik bir şekilde botunuzu kapatın.'
 ).add_command(
-    'repo', None, 'Asena botunun GitHub\'daki reposuna giden bir bağlantı.'
+    'repo', None, 'Lexa botunun GitHub\'daki reposuna giden bir bağlantı.'
 ).add_command(
-    'readme', None, 'Asena botunun GitHub\'daki README.md dosyasına giden bir bağlantı.'
+    'readme', None, 'Lexa botunun GitHub\'daki README.md dosyasına giden bir bağlantı.'
 ).add_command(
     'creator', None, 'Bu güzel botu kimlerin oluşturduğunu öğren :-)'
 ).add_command(
